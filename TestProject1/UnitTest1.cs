@@ -4,7 +4,7 @@ using ExtensionMethod;
 namespace TestProject1
 {
     public class Tests
-    {
+    { 
         [Test]
         public void SanityCheck()
         {
@@ -13,7 +13,7 @@ namespace TestProject1
             var result = source.IntersectOn(source, 0);
             Assert.That(result.Count(), Is.EqualTo(1));
         }
-
+        
         [Test]
         public void Test1()
         {
